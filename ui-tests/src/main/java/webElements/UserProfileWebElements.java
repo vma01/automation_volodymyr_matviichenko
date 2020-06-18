@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public interface UserProfileWebElements {
     default SelenideElement saveBtn() {
-        return $(By.id("#submit"));
+        return $(By.id("submit"));
     }
-    default SelenideElement profileImage() {return $(By.id("#file-upload"));}
+    default SelenideElement profileImage() {return $(By.id("file-upload"));}
 }

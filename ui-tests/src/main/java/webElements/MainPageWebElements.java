@@ -10,9 +10,9 @@ public interface MainPageWebElements {
         return $(By.cssSelector("#login > a"));
     }
     default SelenideElement logoutBtn() {
-        return $(By.cssSelector("#logout"));
+        return $(By.id("logout"));
     }
-    default SelenideElement profileBtn() {return $(By.cssSelector("#profile"));}
+    default SelenideElement profileBtn() {return $(By.id("profile"));}
     default SelenideElement loginMessage() {return $(By.cssSelector("#howdy a:first-child"));}
     default SelenideElement loadedImage(String pathImage) {return $(By.xpath("//img[contains(@src, '" + pathImage + "')]"));}
 }
