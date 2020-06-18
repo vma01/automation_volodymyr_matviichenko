@@ -2,7 +2,7 @@
 
 This is a Automation Framework.
  - Written in **JAVA**
- - Implemented using **TestNG**
+ - Test framework using **TestNG**
  - Build Tool - **Maven**
  - Reporting Framework - **Allure**
  - Http client - **Rest-Assured** 
