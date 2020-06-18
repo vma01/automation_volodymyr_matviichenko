@@ -3,7 +3,7 @@ import factory.MainPage;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class TestUpdateUserProfile extends BaseUITest {
+public class UpdateUserProfileTest extends BaseUITest {
     private final String ALERT_SUCCESS_MESSAGE = "Login successful";
     private final String LOGGED_USER_MESSAGE = "Logged in as %s %s";
     private final String LOGOUT_MESSAGE = "Login";

@@ -10,3 +10,6 @@ This is a Automation Framework.
  
 #### Rest-Api tests command run: 
   - mvn clean install test -DsuiteXml=testng-rest.xml allure:report -f api-tests/pom
+  
+ #### UI tests command run: 
+   - mvn clean install test -DsuiteXml=testng-ui.xml allure:report -f ui-tests/pom
